@@ -66,7 +66,7 @@ function Footer() {
                             src: "/images/footer/latte.png",
                             width: "18",
                             height: "18",
-                            className: "animate-bounce ml-1",
+                            className: "animate-bounce ml-1 dark:bg-text",
                             alt: "latte"
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/fsdwsef/src/components/shared/Footer.js",
@@ -144,7 +144,7 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$Document
 __turbopack_context__.v([{"icon":"/images/icons/bootstrap.png","width":48,"height":48,"opacity":0.9},{"icon":"/images/icons/css.png","width":64,"height":64,"opacity":1},{"icon":"/images/icons/docker.png","width":64,"height":64,"opacity":1},{"icon":"/images/icons/html.webp","width":64,"height":64,"borderRadius":8,"opacity":1},{"icon":"/images/icons/mongodb.png","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/next.png","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/nodejs.png","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/react-native.png","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/react.svg","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/tailwindcss-logo.png","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/ts.svg","width":64,"height":64,"opacity":0.7}]);}),
 "[project]/Documents/GitHub/fsdwsef/src/components/shared/json/project.json (json)", ((__turbopack_context__) => {
 
-__turbopack_context__.v([{"icon":"/images/project/hizmetKap.jpeg","width":200,"height":200,"baslik":"Hizmet Kap","description":"💻 Teknik detaylar:\nNext.js 14 ile hızlı ve SEO uyumlu sayfalar\nTailwind CSS ile modern ve responsive tasarım\nMaterial UI ve Icons ile zengin kullanıcı arayüzü\nAxios ile backend API iletişimi\nSocket.IO ile gerçek zamanlı mesajlaşma\nReact-Leaflet & Leaflet ile konum entegrasyonu\nReact-Toastify ile bildirim sistemi\nKullanıcı ve ilan verileri MongoDB üzerinden yönetiliyor\n🔧 Bu projede ayrıca localStorage ile sayfa kontrolleri, JWT ile güvenli giriş sistemi ve modern web geliştirme teknikleri uyguladım.\n📂 Gerçek kullanıcı ihtiyaçları için full-stack bir uygulama olarak tasarlandı.","adres":"https://lnkd.in/dd8YxJcD"},{"icon":"/images/project/workist.jpeg","width":200,"height":200,"baslik":"Workist","description":"⚙️ Kullanılan Teknolojiler:\nFrontend: React.js, Context API, Tailwind CSS, FontAwesome\nBackend: Node.js, Express.js\nGerçek Zamanlı İletişim: Socket.io\nHTTP İletişimi: Axios\nDepolama & Oturum: LocalStorage\nYardımcı Araçlar: useMemo, useRef gibi ileri React Hook'ları\nGüvenlik: Authentication & Authorization\n💡 Amaçlarım:\nTemiz ve sürdürülebilir kod yapısı kurmak\nKullanıcı merkezli arayüzler geliştirmek\nGerçek zamanlı etkileşimleri başarılı şekilde entegre etmek\nFull-stack yetkinliğimi geliştirmek","adres":"https://lnkd.in/d_akHCsW"},{"icon":"/images/project/StackDiyet.jpeg","width":200,"height":200,"baslik":"Stack Diyet","description":"🛠️ Kullanılan Teknolojiler:\nFrontend: React.js, Tailwind CSS, FontAwesome\nBackend: Node.js\nState Management: Zustand\nEmail Gönderimi: React EmailJS\nVeri Yönetimi: MongoDB & Express.js\nBu proje ile kullanıcı deneyimi, interaktif gönderi sistemi ve gerçek zamanlı etkileşim özelliklerini uygulama fırsatı buldum.\n🧠 Her adımını öğrenerek ve deneyimleyerek geliştirdim.","adres":"https://lnkd.in/d9mgQf-D"},{"icon":"/images/project/fatura.jpeg","width":200,"height":200,"baslik":"Fatura Entegrasyonu","description":"Bu projede şu özellikler bulunuyor:\nKullanıcı Yönetimi: Giriş & kayıt\nSipariş Yönetimi: Sepet, sipariş oluşturma, sipariş takibi\nFatura Entegrasyonu: Fatura oluşturma, yazdırma\nKategori & Ürün Yönetimi: CRUD işlemleri\nGeri bildirimlerinizi duymaktan memnuniyet duyarım! 💻🌟","adres":"https://github.com/zeynepbass/react-fatura-application"}]);}),
+__turbopack_context__.v([{"icon":"/images/project/hizmetKap.jpeg","width":200,"height":200,"baslik":"Hizmet Kap","description":"💻 Teknik detaylar:\nNext.js 14 ile hızlı ve SEO uyumlu sayfalar\nTailwind CSS ile modern ve responsive tasarım\nMaterial UI ve Icons ile zengin kullanıcı arayüzü\nAxios ile backend API iletişimi\nSocket.IO ile gerçek zamanlı mesajlaşma\nReact-Leaflet & Leaflet ile konum entegrasyonu\nReact-Toastify ile bildirim sistemi\nKullanıcı ve ilan verileri MongoDB üzerinden yönetiliyor\n🔧 Bu projede ayrıca localStorage ile sayfa kontrolleri, JWT ile güvenli giriş sistemi ve modern web geliştirme teknikleri uyguladım.\n📂 Gerçek kullanıcı ihtiyaçları için full-stack bir uygulama olarak tasarlandı.","adres":"https://github.com/zeynepbass/HizmetKap"},{"icon":"/images/project/workist.jpeg","width":200,"height":200,"baslik":"Workist","description":"⚙️ Kullanılan Teknolojiler:\nFrontend: React.js, Context API, Tailwind CSS, FontAwesome\nBackend: Node.js, Express.js\nGerçek Zamanlı İletişim: Socket.io\nHTTP İletişimi: Axios\nDepolama & Oturum: LocalStorage\nYardımcı Araçlar: useMemo, useRef gibi ileri React Hook'ları\nGüvenlik: Authentication & Authorization\n💡 Amaçlarım:\nTemiz ve sürdürülebilir kod yapısı kurmak\nKullanıcı merkezli arayüzler geliştirmek\nGerçek zamanlı etkileşimleri başarılı şekilde entegre etmek\nFull-stack yetkinliğimi geliştirmek","adres":"https://github.com/zeynepbass/workist"},{"icon":"/images/project/StackDiyet.jpeg","width":200,"height":200,"baslik":"Stack Diyet","description":"🛠️ Kullanılan Teknolojiler:\nFrontend: React.js, Tailwind CSS, FontAwesome\nBackend: Node.js\nState Management: Zustand\nEmail Gönderimi: React EmailJS\nVeri Yönetimi: MongoDB & Express.js\nBu proje ile kullanıcı deneyimi, interaktif gönderi sistemi ve gerçek zamanlı etkileşim özelliklerini uygulama fırsatı buldum.\n🧠 Her adımını öğrenerek ve deneyimleyerek geliştirdim.","adres":"https://github.com/zeynepbass/stack-diyet"},{"icon":"/images/project/fatura.jpeg","width":200,"height":200,"baslik":"Fatura Entegrasyonu","description":"Bu projede şu özellikler bulunuyor:\nKullanıcı Yönetimi: Giriş & kayıt\nSipariş Yönetimi: Sepet, sipariş oluşturma, sipariş takibi\nFatura Entegrasyonu: Fatura oluşturma, yazdırma\nKategori & Ürün Yönetimi: CRUD işlemleri\nGeri bildirimlerinizi duymaktan memnuniyet duyarım! 💻🌟","adres":"https://github.com/zeynepbass/react-fatura-application"}]);}),
 "[project]/Documents/GitHub/fsdwsef/src/components/shared/json/navigation.json (json)", ((__turbopack_context__) => {
 
 __turbopack_context__.v([{"name":"Ana Sayfa","href":"/","svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" class=\"lucide lucide-sparkles mr-2 size-4\" aria-hidden=\"true\"><path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"></path><path d=\"M20 3v4\"></path><path d=\"M22 5h-4\"></path><path d=\"M4 17v2\"></path><path d=\"M5 18H3\"></path></svg>"},{"name":"Blog","href":"/blog","svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" class=\"lucide lucide-newspaper mr-2 size-4\" aria-hidden=\"true\"><path d=\"M15 18h-5\"></path><path d=\"M18 14h-8\"></path><path d=\"M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2\"></path><rect width=\"8\" height=\"4\" x=\"10\" y=\"6\" rx=\"1\"></rect></svg>"},{"name":"Projelerim","href":"/projects","svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" class=\"lucide lucide-layout-grid mr-2 size-4\" aria-hidden=\"true\"><rect width=\"7\" height=\"7\" x=\"3\" y=\"3\" rx=\"1\"></rect><rect width=\"7\" height=\"7\" x=\"14\" y=\"3\" rx=\"1\"></rect><rect width=\"7\" height=\"7\" x=\"14\" y=\"14\" rx=\"1\"></rect><rect width=\"7\" height=\"7\" x=\"3\" y=\"14\" rx=\"1\"></rect></svg>"},{"name":"Hakkımda","href":"/about","svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" class=\"lucide lucide-user mr-2 size-4\" aria-hidden=\"true\"><path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"></path><circle cx=\"12\" cy=\"7\" r=\"4\"></circle></svg>"}]);}),
@@ -220,8 +220,54 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdws
 ;
 ;
 const metadata = {
-    title: "Zeynep Bas | Frontend Developer",
-    description: "React, TypeScript, Tailwind CSS ve modern web teknolojileriyle projeler geliştiren Frontend Developer."
+    metadataBase: new URL("https://zeynepbas.dev"),
+    alternates: {
+        canonical: "https://zeynepbas.dev"
+    },
+    title: {
+        template: `%s | Zeynep Baş`,
+        default: `Zeynep Baş - Mid Frontend Developer`
+    },
+    description: "React ve Next.js ile modern, hızlı ve ölçeklenebilir web uygulamaları geliştiren Mid frontend geliştirici Zeynep Baş'ın portföy sitesi.",
+    keywords: [
+        "Frontend",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Zeynep Baş",
+        "Mid Frontend Developer"
+    ],
+    authors: [
+        {
+            name: "Zeynep Baş",
+            url: "https://zeynepbas.dev"
+        }
+    ],
+    creator: "Zeynep Baş",
+    openGraph: {
+        title: "Zeynep Baş - Mid Frontend Developer",
+        description: "React ve Next.js ile modern, hızlı ve ölçeklenebilir web uygulamaları geliştiren Mid frontend geliştirici Zeynep Baş'ın portföy sitesi.",
+        url: "https://zeynepbas.dev",
+        siteName: "Zeynep Baş",
+        type: "website",
+        images: [
+            {
+                url: "/images/og.png",
+                width: 1200,
+                height: 630,
+                alt: "Zeynep Baş - Mid Frontend Developer"
+            }
+        ]
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Zeynep Baş - Mid Frontend Developer",
+        description: "React ve Next.js ile modern web uygulamaları geliştiren Mid frontend developer.",
+        images: [
+            "/images/og.png"
+        ]
+    }
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -232,12 +278,12 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$src$2f$components$2f$shared$2f$Analyst$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Analyst$3e$__["Analyst"], {}, void 0, false, {
                     fileName: "[project]/Documents/GitHub/fsdwsef/src/app/layout.js",
-                    lineNumber: 14,
+                    lineNumber: 62,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$src$2f$components$2f$shared$2f$Header$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Header$3e$__["Header"], {}, void 0, false, {
                     fileName: "[project]/Documents/GitHub/fsdwsef/src/app/layout.js",
-                    lineNumber: 15,
+                    lineNumber: 63,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -245,23 +291,23 @@ function RootLayout({ children }) {
                     children: children
                 }, void 0, false, {
                     fileName: "[project]/Documents/GitHub/fsdwsef/src/app/layout.js",
-                    lineNumber: 17,
+                    lineNumber: 65,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$src$2f$components$2f$shared$2f$Footer$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Footer$3e$__["Footer"], {}, void 0, false, {
                     fileName: "[project]/Documents/GitHub/fsdwsef/src/app/layout.js",
-                    lineNumber: 19,
+                    lineNumber: 67,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Documents/GitHub/fsdwsef/src/app/layout.js",
-            lineNumber: 13,
+            lineNumber: 61,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Documents/GitHub/fsdwsef/src/app/layout.js",
-        lineNumber: 12,
+        lineNumber: 60,
         columnNumber: 5
     }, this);
 }

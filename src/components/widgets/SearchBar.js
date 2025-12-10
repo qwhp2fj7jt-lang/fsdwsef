@@ -38,7 +38,7 @@ export default function SearchBar({ navigation }) {
         />
 
         <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
-          <div className="flex min-h-full items-end justify-center p-4 text-left sm:items-center sm:p-0">
+          <div className="flex min-h-[50vh] items-end justify-center p-4 text-left sm:items-center sm:p-0">
             <DialogPanel
               transition
               className="dark:bg-zinc-800 relative transform overflow-hidden rounded-xl bg-white text-left shadow-2xl ring-1 ring-black/5 transition-all

@@ -409,11 +409,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdws
 ;
 function Footer() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(4);
-    if ($[0] !== "4f975811a9f04f5269412a25b00808515a7bd7b67384a1d2d1d4c71dc723ff94") {
+    if ($[0] !== "2b36c53bf31a6ed610997721595ceb057e269fdf2015b77385a189b8bc9f3cd2") {
         for(let $i = 0; $i < 4; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "4f975811a9f04f5269412a25b00808515a7bd7b67384a1d2d1d4c71dc723ff94";
+        $[0] = "2b36c53bf31a6ed610997721595ceb057e269fdf2015b77385a189b8bc9f3cd2";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -452,7 +452,7 @@ function Footer() {
                                 src: "/images/footer/latte.png",
                                 width: "18",
                                 height: "18",
-                                className: "animate-bounce ml-1",
+                                className: "animate-bounce ml-1 dark:bg-text",
                                 alt: "latte"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/GitHub/fsdwsef/src/components/shared/Footer.js",
@@ -474,7 +474,7 @@ function Footer() {
                     }, void 0, true, {
                         fileName: "[project]/Documents/GitHub/fsdwsef/src/components/shared/Footer.js",
                         lineNumber: 27,
-                        columnNumber: 363
+                        columnNumber: 376
                     }, this)
                 ]
             }, void 0, true, {
@@ -555,7 +555,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 __turbopack_context__.v([{"icon":"/images/icons/bootstrap.png","width":48,"height":48,"opacity":0.9},{"icon":"/images/icons/css.png","width":64,"height":64,"opacity":1},{"icon":"/images/icons/docker.png","width":64,"height":64,"opacity":1},{"icon":"/images/icons/html.webp","width":64,"height":64,"borderRadius":8,"opacity":1},{"icon":"/images/icons/mongodb.png","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/next.png","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/nodejs.png","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/react-native.png","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/react.svg","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/tailwindcss-logo.png","width":64,"height":64,"opacity":0.7},{"icon":"/images/icons/ts.svg","width":64,"height":64,"opacity":0.7}]);}),
 "[project]/Documents/GitHub/fsdwsef/src/components/shared/json/project.json (json)", ((__turbopack_context__) => {
 
-__turbopack_context__.v([{"icon":"/images/project/hizmetKap.jpeg","width":200,"height":200,"baslik":"Hizmet Kap","description":"💻 Teknik detaylar:\nNext.js 14 ile hızlı ve SEO uyumlu sayfalar\nTailwind CSS ile modern ve responsive tasarım\nMaterial UI ve Icons ile zengin kullanıcı arayüzü\nAxios ile backend API iletişimi\nSocket.IO ile gerçek zamanlı mesajlaşma\nReact-Leaflet & Leaflet ile konum entegrasyonu\nReact-Toastify ile bildirim sistemi\nKullanıcı ve ilan verileri MongoDB üzerinden yönetiliyor\n🔧 Bu projede ayrıca localStorage ile sayfa kontrolleri, JWT ile güvenli giriş sistemi ve modern web geliştirme teknikleri uyguladım.\n📂 Gerçek kullanıcı ihtiyaçları için full-stack bir uygulama olarak tasarlandı.","adres":"https://lnkd.in/dd8YxJcD"},{"icon":"/images/project/workist.jpeg","width":200,"height":200,"baslik":"Workist","description":"⚙️ Kullanılan Teknolojiler:\nFrontend: React.js, Context API, Tailwind CSS, FontAwesome\nBackend: Node.js, Express.js\nGerçek Zamanlı İletişim: Socket.io\nHTTP İletişimi: Axios\nDepolama & Oturum: LocalStorage\nYardımcı Araçlar: useMemo, useRef gibi ileri React Hook'ları\nGüvenlik: Authentication & Authorization\n💡 Amaçlarım:\nTemiz ve sürdürülebilir kod yapısı kurmak\nKullanıcı merkezli arayüzler geliştirmek\nGerçek zamanlı etkileşimleri başarılı şekilde entegre etmek\nFull-stack yetkinliğimi geliştirmek","adres":"https://lnkd.in/d_akHCsW"},{"icon":"/images/project/StackDiyet.jpeg","width":200,"height":200,"baslik":"Stack Diyet","description":"🛠️ Kullanılan Teknolojiler:\nFrontend: React.js, Tailwind CSS, FontAwesome\nBackend: Node.js\nState Management: Zustand\nEmail Gönderimi: React EmailJS\nVeri Yönetimi: MongoDB & Express.js\nBu proje ile kullanıcı deneyimi, interaktif gönderi sistemi ve gerçek zamanlı etkileşim özelliklerini uygulama fırsatı buldum.\n🧠 Her adımını öğrenerek ve deneyimleyerek geliştirdim.","adres":"https://lnkd.in/d9mgQf-D"},{"icon":"/images/project/fatura.jpeg","width":200,"height":200,"baslik":"Fatura Entegrasyonu","description":"Bu projede şu özellikler bulunuyor:\nKullanıcı Yönetimi: Giriş & kayıt\nSipariş Yönetimi: Sepet, sipariş oluşturma, sipariş takibi\nFatura Entegrasyonu: Fatura oluşturma, yazdırma\nKategori & Ürün Yönetimi: CRUD işlemleri\nGeri bildirimlerinizi duymaktan memnuniyet duyarım! 💻🌟","adres":"https://github.com/zeynepbass/react-fatura-application"}]);}),
+__turbopack_context__.v([{"icon":"/images/project/hizmetKap.jpeg","width":200,"height":200,"baslik":"Hizmet Kap","description":"💻 Teknik detaylar:\nNext.js 14 ile hızlı ve SEO uyumlu sayfalar\nTailwind CSS ile modern ve responsive tasarım\nMaterial UI ve Icons ile zengin kullanıcı arayüzü\nAxios ile backend API iletişimi\nSocket.IO ile gerçek zamanlı mesajlaşma\nReact-Leaflet & Leaflet ile konum entegrasyonu\nReact-Toastify ile bildirim sistemi\nKullanıcı ve ilan verileri MongoDB üzerinden yönetiliyor\n🔧 Bu projede ayrıca localStorage ile sayfa kontrolleri, JWT ile güvenli giriş sistemi ve modern web geliştirme teknikleri uyguladım.\n📂 Gerçek kullanıcı ihtiyaçları için full-stack bir uygulama olarak tasarlandı.","adres":"https://github.com/zeynepbass/HizmetKap"},{"icon":"/images/project/workist.jpeg","width":200,"height":200,"baslik":"Workist","description":"⚙️ Kullanılan Teknolojiler:\nFrontend: React.js, Context API, Tailwind CSS, FontAwesome\nBackend: Node.js, Express.js\nGerçek Zamanlı İletişim: Socket.io\nHTTP İletişimi: Axios\nDepolama & Oturum: LocalStorage\nYardımcı Araçlar: useMemo, useRef gibi ileri React Hook'ları\nGüvenlik: Authentication & Authorization\n💡 Amaçlarım:\nTemiz ve sürdürülebilir kod yapısı kurmak\nKullanıcı merkezli arayüzler geliştirmek\nGerçek zamanlı etkileşimleri başarılı şekilde entegre etmek\nFull-stack yetkinliğimi geliştirmek","adres":"https://github.com/zeynepbass/workist"},{"icon":"/images/project/StackDiyet.jpeg","width":200,"height":200,"baslik":"Stack Diyet","description":"🛠️ Kullanılan Teknolojiler:\nFrontend: React.js, Tailwind CSS, FontAwesome\nBackend: Node.js\nState Management: Zustand\nEmail Gönderimi: React EmailJS\nVeri Yönetimi: MongoDB & Express.js\nBu proje ile kullanıcı deneyimi, interaktif gönderi sistemi ve gerçek zamanlı etkileşim özelliklerini uygulama fırsatı buldum.\n🧠 Her adımını öğrenerek ve deneyimleyerek geliştirdim.","adres":"https://github.com/zeynepbass/stack-diyet"},{"icon":"/images/project/fatura.jpeg","width":200,"height":200,"baslik":"Fatura Entegrasyonu","description":"Bu projede şu özellikler bulunuyor:\nKullanıcı Yönetimi: Giriş & kayıt\nSipariş Yönetimi: Sepet, sipariş oluşturma, sipariş takibi\nFatura Entegrasyonu: Fatura oluşturma, yazdırma\nKategori & Ürün Yönetimi: CRUD işlemleri\nGeri bildirimlerinizi duymaktan memnuniyet duyarım! 💻🌟","adres":"https://github.com/zeynepbass/react-fatura-application"}]);}),
 "[project]/Documents/GitHub/fsdwsef/src/components/shared/json/navigation.json (json)", ((__turbopack_context__) => {
 
 __turbopack_context__.v([{"name":"Ana Sayfa","href":"/","svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" class=\"lucide lucide-sparkles mr-2 size-4\" aria-hidden=\"true\"><path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"></path><path d=\"M20 3v4\"></path><path d=\"M22 5h-4\"></path><path d=\"M4 17v2\"></path><path d=\"M5 18H3\"></path></svg>"},{"name":"Blog","href":"/blog","svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" class=\"lucide lucide-newspaper mr-2 size-4\" aria-hidden=\"true\"><path d=\"M15 18h-5\"></path><path d=\"M18 14h-8\"></path><path d=\"M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-4 0v-9a2 2 0 0 1 2-2h2\"></path><rect width=\"8\" height=\"4\" x=\"10\" y=\"6\" rx=\"1\"></rect></svg>"},{"name":"Projelerim","href":"/projects","svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" class=\"lucide lucide-layout-grid mr-2 size-4\" aria-hidden=\"true\"><rect width=\"7\" height=\"7\" x=\"3\" y=\"3\" rx=\"1\"></rect><rect width=\"7\" height=\"7\" x=\"14\" y=\"3\" rx=\"1\"></rect><rect width=\"7\" height=\"7\" x=\"14\" y=\"14\" rx=\"1\"></rect><rect width=\"7\" height=\"7\" x=\"3\" y=\"14\" rx=\"1\"></rect></svg>"},{"name":"Hakkımda","href":"/about","svg":"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" class=\"lucide lucide-user mr-2 size-4\" aria-hidden=\"true\"><path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"></path><circle cx=\"12\" cy=\"7\" r=\"4\"></circle></svg>"}]);}),
@@ -702,11 +702,11 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Card(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "a66792b5f7fff48569f41de48aea975a0cbfa62162be376b0c67b6da6be9a4d7") {
+    if ($[0] !== "56630b2de9801e12eb69dce8c4e08afb5568750337bcfad54900da406764ae47") {
         for(let $i = 0; $i < 5; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a66792b5f7fff48569f41de48aea975a0cbfa62162be376b0c67b6da6be9a4d7";
+        $[0] = "56630b2de9801e12eb69dce8c4e08afb5568750337bcfad54900da406764ae47";
     }
     const { project } = t0;
     let t1;
@@ -742,11 +742,11 @@ function _CardProjectMap(item, index) {
 function ProjectCard(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(29);
-    if ($[0] !== "a66792b5f7fff48569f41de48aea975a0cbfa62162be376b0c67b6da6be9a4d7") {
+    if ($[0] !== "56630b2de9801e12eb69dce8c4e08afb5568750337bcfad54900da406764ae47") {
         for(let $i = 0; $i < 29; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a66792b5f7fff48569f41de48aea975a0cbfa62162be376b0c67b6da6be9a4d7";
+        $[0] = "56630b2de9801e12eb69dce8c4e08afb5568750337bcfad54900da406764ae47";
     }
     const { item } = t0;
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -848,7 +848,7 @@ function ProjectCard(t0) {
         t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
             href: item.adres,
             target: "_blank",
-            className: "text-gray-800 font-medium hover:underline break-all",
+            className: "text-gray-700 font-medium hover:underline break-all",
             children: item.adres
         }, void 0, false, {
             fileName: "[project]/Documents/GitHub/fsdwsef/src/components/widgets/Card.js",
@@ -1929,11 +1929,11 @@ var _s = __turbopack_context__.k.signature();
 function SearchBar(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(18);
-    if ($[0] !== "88a2aaabf446ff587bcc7ca064928f12c409b6871daf27203feb87bfc58c4c86") {
+    if ($[0] !== "0fd12e17ee274e791578e8a6a3ed9ca7489e3649a9d11a1c38161f9307450b98") {
         for(let $i = 0; $i < 18; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "88a2aaabf446ff587bcc7ca064928f12c409b6871daf27203feb87bfc58c4c86";
+        $[0] = "0fd12e17ee274e791578e8a6a3ed9ca7489e3649a9d11a1c38161f9307450b98";
     }
     const { navigation } = t0;
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -1976,7 +1976,7 @@ function SearchBar(t0) {
     let t3;
     if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
         t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "inline-flex items-center gap-1 dark:bg-zinc-800 bg-[#F7F7F7] rounded-full px-1 py-1 shadow-sm   cursor-pointer",
+            className: "p-2 inline-flex items-center gap-1 dark:bg-zinc-800 bg-[#F7F7F7] rounded-full px-1 py-1 shadow-sm   cursor-pointer",
             onClick: t1,
             children: [
                 t2,
@@ -1988,20 +1988,20 @@ function SearchBar(t0) {
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/fsdwsef/src/components/widgets/SearchBar.js",
                             lineNumber: 37,
-                            columnNumber: 245
+                            columnNumber: 249
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: "K"
                         }, void 0, false, {
                             fileName: "[project]/Documents/GitHub/fsdwsef/src/components/widgets/SearchBar.js",
                             lineNumber: 37,
-                            columnNumber: 259
+                            columnNumber: 263
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/GitHub/fsdwsef/src/components/widgets/SearchBar.js",
                     lineNumber: 37,
-                    columnNumber: 155
+                    columnNumber: 159
                 }, this)
             ]
         }, void 0, true, {
@@ -2151,7 +2151,7 @@ function SearchBar(t0) {
         t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "fixed inset-0 z-10 w-screen overflow-y-auto",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex min-h-full items-end justify-center p-4 text-left sm:items-center sm:p-0",
+                className: "flex min-h-[50vh] items-end justify-center p-4 text-left sm:items-center sm:p-0",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$dialog$2f$dialog$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DialogPanel"], {
                     transition: true,
                     className: "dark:bg-zinc-800 relative transform overflow-hidden rounded-xl bg-white text-left shadow-2xl ring-1 ring-black/5 transition-all\n             data-closed:translate-y-4 data-closed:opacity-0\n             data-enter:duration-300 data-enter:ease-out\n             data-leave:duration-200 data-leave:ease-in\n             sm:my-8 sm:w-full sm:max-w-xl data-closed:sm:translate-y-0 data-closed:sm:scale-95",
@@ -2168,13 +2168,13 @@ function SearchBar(t0) {
                         }, void 0, true, {
                             fileName: "[project]/Documents/GitHub/fsdwsef/src/components/widgets/SearchBar.js",
                             lineNumber: 94,
-                            columnNumber: 618
+                            columnNumber: 620
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/GitHub/fsdwsef/src/components/widgets/SearchBar.js",
                     lineNumber: 94,
-                    columnNumber: 167
+                    columnNumber: 169
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Documents/GitHub/fsdwsef/src/components/widgets/SearchBar.js",
@@ -2194,7 +2194,7 @@ function SearchBar(t0) {
     let t12;
     if ($[15] !== open || $[16] !== t11) {
         t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative",
+            className: "relative ",
             children: [
                 t3,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$GitHub$2f$fsdwsef$2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$dialog$2f$dialog$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Dialog"], {
@@ -2208,7 +2208,7 @@ function SearchBar(t0) {
                 }, void 0, true, {
                     fileName: "[project]/Documents/GitHub/fsdwsef/src/components/widgets/SearchBar.js",
                     lineNumber: 102,
-                    columnNumber: 41
+                    columnNumber: 42
                 }, this)
             ]
         }, void 0, true, {
