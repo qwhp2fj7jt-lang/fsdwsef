@@ -57,7 +57,7 @@ function ProjectCard({ item }) {
             <a
               href={item.adres}
               target="_blank"
-              className="text-gray-800 font-medium hover:underline break-all"
+              className="text-gray-700 font-medium hover:underline break-all"
             >
               {item.adres}
             </a>
