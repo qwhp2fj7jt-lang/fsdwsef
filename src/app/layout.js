@@ -1,7 +1,6 @@
 import { Header, Footer, Analyst } from "@/shared";
 import "./globals.css";
 
-
 export const metadata = {
   metadataBase: new URL("https://zeynepbas.dev"), 
   alternates: {
@@ -11,8 +10,17 @@ export const metadata = {
     template: `%s | Zeynep Baş`,
     default: `Zeynep Baş - Mid Frontend Developer`
   },
-  description: "React ve Next.js ile modern, hızlı ve ölçeklenebilir web uygulamaları geliştiren Mid frontend geliştirici Zeynep Baş'ın portföy sitesi.",
-  keywords: ["Frontend", "React", "Next.js", "TypeScript", "Tailwind CSS", "Zeynep Baş", "Mid Frontend Developer"],
+  description:
+    "React ve Next.js ile modern, hızlı ve ölçeklenebilir web uygulamaları geliştiren Mid frontend geliştirici Zeynep Baş'ın portföy sitesi.",
+  keywords: [
+    "Frontend",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Zeynep Baş",
+    "Mid Frontend Developer"
+  ],
   authors: [
     {
       name: "Zeynep Baş",
@@ -20,21 +28,30 @@ export const metadata = {
     }
   ],
   creator: "Zeynep Baş",
+
   openGraph: {
+    title: "Zeynep Baş - Mid Frontend Developer",
+    description:
+      "React ve Next.js ile modern, hızlı ve ölçeklenebilir web uygulamaları geliştiren Mid frontend geliştirici Zeynep Baş'ın portföy sitesi.",
+    url: "https://zeynepbas.dev",
     siteName: "Zeynep Baş",
-    url: "/",
     type: "website",
-    firstName: "Zeynep",
-    lastName: "Baş",
-    username: "zeynepbas",
     images: [
       {
-        url: "/images/avatar.jpeg",
-        width: 100,
-        height: 100,
+        url: "/images/og.png",
+        width: 1200,
+        height: 630,
         alt: "Zeynep Baş - Mid Frontend Developer"
       }
     ]
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Zeynep Baş - Mid Frontend Developer",
+    description:
+      "React ve Next.js ile modern web uygulamaları geliştiren Mid frontend developer.",
+    images: ["/images/og.png"]
   }
 };
 
