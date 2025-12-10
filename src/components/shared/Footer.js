@@ -12,7 +12,7 @@ export default function Footer() {
     src="/images/footer/latte.png"
     width="18"
     height="18"
-    className="animate-bounce ml-1"
+    className="animate-bounce ml-1 dark:bg-text"
     alt="latte"
   />
 </p>
