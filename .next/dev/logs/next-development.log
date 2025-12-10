@@ -1,0 +1,139 @@
+[00:00:00.526] Server  LOG      ✓ Ready in 337ms
+[00:00:03.360] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+          <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                  <SegmentViewNode type="page" pagePath="/Documents...">
+                    <SegmentTrieNode>
+                    <Home>
+                      <div className="flex min-h...">
+                        <HomeRoute>
+                          <div className="container ...">
+                            <Hero>
+                              <div className="container ...">
+                                <div className="flex items...">
+                                  <div className="relative">
+                                    <img>
+                                    <span
++                                     className={"absolute bottom-0 left-0 w-8 h-8 dark:bg-white bg-zinc-800\n rounde..."}
+-                                     className="absolute bottom-0 left-0 w-8 h-8 dark:bg-white bg-zinc-800 rounded-fu..."
+                                    >
++                                     😵‍💫
+                                  ...
+                                ...
+                            <Skills>
+                              <div className="jsx-8ccd71...">
+                                <div
++                                 className="flex gap-5 mb-5"
+-                                 className="jsx-8ccd71c46f03746c flex gap-5 mb-5"
+                                >
+                                  <img
+                                    src="/images/icons/bootstrap.png"
+                                    alt=""
+                                    style={{width:48,height:48,opacity:0.9,borderRadius:0}}
++                                   className="animate-bounce-custom"
+-                                   className="jsx-8ccd71c46f03746c animate-bounce-custom"
+                                  >
+                                  <img
+                                    src="/images/icons/css.png"
+                                    alt=""
+                                    style={{width:64,height:64,opacity:1,borderRadius:0}}
++                                   className="animate-bounce-custom"
+-                                   className="jsx-8ccd71c46f03746c animate-bounce-custom"
+                                  >
+                                  <img
+                                    src="/images/icons/docker.png"
+                                    alt=""
+                                    style={{width:64,height:64,opacity:1,borderRadius:0}}
++                                   className="animate-bounce-custom"
+-                                   className="jsx-8ccd71c46f03746c animate-bounce-custom"
+                                  >
+                                  <img
+                                    src="/images/icons/html.webp"
+                                    alt=""
+                                    style={{width:64,height:64,opacity:1,borderRadius:8}}
++                                   className="animate-bounce-custom"
+-                                   className="jsx-8ccd71c46f03746c animate-bounce-custom"
+                                  >
+                                <div
++                                 className="flex gap-5 mb-5"
+-                                 className="jsx-8ccd71c46f03746c flex gap-5 mb-5"
+                                >
+                                  <img
+                                    src="/images/icons/mongodb.png"
+                                    alt=""
+                                    style={{width:64,height:64,opacity:0.7,borderRadius:0}}
++                                   className="animate-bounce-custom"
+-                                   className="jsx-8ccd71c46f03746c animate-bounce-custom"
+                                  >
+                                  <img
+                                    src="/images/icons/next.png"
+                                    alt=""
+                                    style={{width:64,height:64,opacity:0.7,borderRadius:0}}
++                                   className="animate-bounce-custom"
+-                                   className="jsx-8ccd71c46f03746c animate-bounce-custom"
+                                  >
+                                  <img
+                                    src="/images/icons/nodejs.png"
+                                    alt=""
+                                    style={{width:64,height:64,opacity:0.7,borderRadius:0}}
++                                   className="animate-bounce-custom"
+-                                   className="jsx-8ccd71c46f03746c animate-bounce-custom"
+                                  >
+                                  <img
+                                    src="/images/icons/react-native.png"
+                                    alt=""
+                                    style={{width:64,height:64,opacity:0.7,borderRadius:0}}
++                                   className="animate-bounce-custom"
+-                                   className="jsx-8ccd71c46f03746c animate-bounce-custom"
+                                  >
+                                <div
++                                 className="flex gap-5 mb-5"
+-                                 className="jsx-8ccd71c46f03746c flex gap-5 mb-5"
+                                >
+                                  <img
+                                    src="/images/icons/react.svg"
+                                    alt=""
+                                    style={{width:64,height:64,opacity:0.7,borderRadius:0}}
++                                   className="animate-bounce-custom"
+-                                   className="jsx-8ccd71c46f03746c animate-bounce-custom"
+                                  >
+                                  <img
+                                    src="/images/icons/tailwindcss-logo.png"
+                                    alt=""
+                                    style={{width:64,height:64,opacity:0.7,borderRadius:0}}
++                                   className="animate-bounce-custom"
+-                                   className="jsx-8ccd71c46f03746c animate-bounce-custom"
+                                  >
+                                  <img
+                                    src="/images/icons/ts.svg"
+                                    alt=""
+                                    style={{width:64,height:64,opacity:0.7,borderRadius:0}}
++                                   className="animate-bounce-custom"
+-                                   className="jsx-8ccd71c46f03746c animate-bounce-custom"
+                                  >
+                                ...
+                            ...
+                  ...
+                ...
+
+[00:00:03.360] Browser LOG     Web Vitals: {"delta":2396,"entries":[{"duration":0,"entryType":"paint","name":"first-contentful-paint","startTime":2396}],"id":"v4-1765383431334-3377905569051","name":"FCP","navigationType":"reload","rating":"needs-improvement","value":2396}
+[00:00:03.360] Browser LOG     Web Vitals: {"delta":2287.100000023842,"entries":[{"activationStart":0,"connectEnd":4.5,"connectStart":4.4000000059604645,"contentEncoding":"gzip","criticalCHRestart":0,"decodedBodySize":47759,"deliveryType":"","domComplete":2505.5,"domContentLoadedEventEnd":2347.4000000059605,"domContentLoadedEventStart":2347.4000000059605,"domInteractive":2347.4000000059605,"domainLookupEnd":4.4000000059604645,"domainLookupStart":4.4000000059604645,"duration":2505.5,"encodedBodySize":12243,"entryType":"navigation","fetchStart":3.100000023841858,"finalResponseHeadersStart":2287.100000023842,"firstInterimResponseStart":0,"initiatorType":"navigation","loadEventEnd":2505.5,"loadEventStart":2505.5,"name":"http://localhost:3000/","nextHopProtocol":"http/1.1","notRestoredReasons":null,"redirectCount":0,"redirectEnd":0,"redirectStart":0,"renderBlockingStatus":"non-blocking","requestStart":4.700000017881393,"responseEnd":2291.9000000059605,"responseStart":2287.100000023842,"responseStatus":200,"secureConnectionStart":0,"serverTiming":[],"startTime":0,"transferSize":12543,"type":"reload","unloadEventEnd":2294.9000000059605,"unloadEventStart":2294.9000000059605,"workerCacheLookupStart":0,"workerFinalSourceType":"","workerMatchedSourceType":"","workerRouterEvaluationStart":0,"workerStart":0}],"id":"v4-1765383431334-7073309033740","name":"TTFB","navigationType":"reload","rating":"poor","value":2287.100000023842}
+[00:00:06.717] Browser LOG     Web Vitals: {"delta":2396,"entries":[{"duration":0,"entryType":"largest-contentful-paint","id":"","loadTime":0,"name":"","renderTime":2396,"size":41129,"startTime":2396,"url":""}],"id":"v4-1765383431334-3370426253333","name":"LCP","navigationType":"reload","rating":"good","value":2396}
+[00:00:06.717] Browser LOG     Web Vitals: {"delta":0,"entries":[],"id":"v4-1765383431347-7504954819354","name":"CLS","navigationType":"reload","rating":"good","value":0}
