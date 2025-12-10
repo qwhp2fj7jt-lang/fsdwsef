@@ -1,0 +1,20 @@
+{
+    "sections": [
+      {
+        "title": "Hedeflerim",
+        "content": "Senior frontend geliştirici olarak ilerlemek, daha büyük ve ölçeklenebilir projelerde sorumluluk alarak kendimi sürekli geliştirmek istiyorum."
+      },
+      {
+        "title": "Hizmetlerim",
+        "content": "React ve Next.js ile modern, hızlı ve ölçeklenebilir web uygulamaları geliştiriyorum. Ürününüz için teknik katkı sağlamak veya yeni bir proje başlatmak isterseniz iletişim bölümünden bana ulaşabilirsiniz.",
+        "link": "https://bionluk.com/zeynepbass",
+        "image": {
+          "src": "/images/icons/bionluk.png",
+          "width": 80,
+          "height": 80,
+          "className": "rounded-xl"
+        }
+      }
+    ]
+  }
+  
