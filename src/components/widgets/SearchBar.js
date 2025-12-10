@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function SearchBar({ navigation }) {
   const [open, setOpen] = useState(false);
   return (
-    <div className="relative">
+    <div className="relative ">
       <div
-        className="inline-flex items-center gap-1 dark:bg-zinc-800 bg-[#F7F7F7] rounded-full px-1 py-1 shadow-sm   cursor-pointer"
+        className="p-2 inline-flex items-center gap-1 dark:bg-zinc-800 bg-[#F7F7F7] rounded-full px-1 py-1 shadow-sm   cursor-pointer"
         onClick={() => setOpen(true)}
       >
         <svg
