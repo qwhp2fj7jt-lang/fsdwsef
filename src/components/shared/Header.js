@@ -6,10 +6,10 @@ import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItems,
-  MenuItem,
+  // Menu,
+  // MenuButton,
+  // MenuItems,
+  // MenuItem,
 } from "@headlessui/react";
 import {
   Bars3Icon,
@@ -23,7 +23,7 @@ import {navigation} from "@/shared";
 
 export default function Header() {
   const [theme, setTheme] = useState("light");
-  const [lang, setLang] = useState("tr");
+  // const [lang, setLang] = useState("tr");
   const [active, setActive] = useState("/");
 
 
@@ -90,7 +90,7 @@ export default function Header() {
             </button>
 
 
-            <Menu as="div" className="relative">
+            {/* <Menu as="div" className="relative">
               <MenuButton className="px-3 py-1 text-gray-600 dark:text-gray-300 bg-gray-100 dark:bg-zinc-800 rounded-md text-sm">
                 {lang.toUpperCase()}
               </MenuButton>
@@ -114,7 +114,7 @@ export default function Header() {
                   </button>
                 </MenuItem>
               </MenuItems>
-            </Menu>
+            </Menu> */}
           </div>
         </div>
       </div>
