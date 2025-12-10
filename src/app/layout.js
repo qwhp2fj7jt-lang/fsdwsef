@@ -8,31 +8,31 @@ export const metadata = {
     canonical: "https://zeynepbas.dev"
   },
   title: {
-    template: `%s | Zeynep Bas`,
-    default: `Zeynep Bas - Mid Frontend Developer`
+    template: `%s | Zeynep Baş`,
+    default: `Zeynep Baş - Mid Frontend Developer`
   },
-  description: "React ve Next.js ile modern, hızlı ve ölçeklenebilir web uygulamaları geliştiren Mid frontend geliştirici Zeynep Bas'ın portföy sitesi.",
-  keywords: ["Frontend", "React", "Next.js", "TypeScript", "Tailwind CSS", "Zeynep Bas", "Mid Frontend Developer"],
+  description: "React ve Next.js ile modern, hızlı ve ölçeklenebilir web uygulamaları geliştiren Mid frontend geliştirici Zeynep Baş'ın portföy sitesi.",
+  keywords: ["Frontend", "React", "Next.js", "TypeScript", "Tailwind CSS", "Zeynep Baş", "Mid Frontend Developer"],
   authors: [
     {
-      name: "Zeynep Bas",
+      name: "Zeynep Baş",
       url: "https://zeynepbas.dev"
     }
   ],
-  creator: "Zeynep Bas",
+  creator: "Zeynep Baş",
   openGraph: {
-    siteName: "Zeynep Bas",
+    siteName: "Zeynep Baş",
     url: "/",
     type: "website",
     firstName: "Zeynep",
-    lastName: "Bas",
+    lastName: "Baş",
     username: "zeynepbas",
     images: [
       {
         url: "/images/avatar.jpeg",
         width: 100,
         height: 100,
-        alt: "Zeynep Bas - Mid Frontend Developer"
+        alt: "Zeynep Baş - Mid Frontend Developer"
       }
     ]
   }
