@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": "/",
     "paths": {
-      "@/*": ["*"],
-      "@/shared": ["components/shared"],
-      "@/icons": ["components/icons"],
-      "@/widgets": ["components/widgets"]
+      "@/*": ["*"],              
+"@/shared": ["components/shared"],
+      "@/icons": ["components/icons"],   
+      "@/widgets": ["components/widgets"] 
     }
   }
 }
